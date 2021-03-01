@@ -4,14 +4,62 @@ import PropTypes from "prop-types";
 export function Card(props) {
 	return (
 		<div>
-			<div className="card col-3">
-				<img src={props.imageURL} className="card-img-top" alt="..." />
-				<div className="card-body">
-					<h5 className="card-title"> {props.title} </h5>
-					<p className="card-text">{props.description}</p>
-					<a href={props.buttonURL} className="btn btn-primary">
-						{props.buttonLabel}
-					</a>
+			<div className="row">
+				<div className="card col-3">
+					<img
+						src={props.imageURL}
+						className="card-img-top"
+						alt="..."
+					/>
+					<div className="card-body">
+						<h5 className="card-title"> {props.title} </h5>
+						<p className="card-text">{props.description}</p>
+						<a href={props.buttonURL} className="btn btn-primary">
+							{props.buttonLabel}
+						</a>
+					</div>
+				</div>
+				<div className="card col-3">
+					<img
+						src={props.imageURL}
+						className="card-img-top"
+						alt="..."
+					/>
+					<div className="card-body">
+						<h5 className="card-title"> {props.title} </h5>
+						<p className="card-text">{props.description}</p>
+						<a href={props.buttonURL} className="btn btn-primary">
+							{props.buttonLabel}
+						</a>
+					</div>
+				</div>
+				<div className="card col-3">
+					<img
+						src={props.imageURL}
+						className="card-img-top"
+						alt="..."
+					/>
+					<div className="card-body">
+						<h5 className="card-title"> {props.title} </h5>
+						<p className="card-text">{props.description}</p>
+						<a href={props.buttonURL} className="btn btn-primary">
+							{props.buttonLabel}
+						</a>
+					</div>
+				</div>
+				<div className="card col-3">
+					<img
+						src={props.imageURL}
+						className="card-img-top"
+						alt="..."
+					/>
+					<div className="card-body">
+						<h5 className="card-title"> {props.title} </h5>
+						<p className="card-text">{props.description}</p>
+						<a href={props.buttonURL} className="btn btn-primary">
+							{props.buttonLabel}
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
