@@ -1,12 +1,12 @@
-import react from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 export function Navbar(props) {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="#">
-					Navbar
+			<nav className="navbar navbar-expand-lg navbar-light bg-info">
+				<a className="navbar-brand text-light" href="#">
+					{props.name}
 				</a>
 				<button
 					className="navbar-toggler"
@@ -18,26 +18,29 @@ export function Navbar(props) {
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNav">
-					<ul className="navbar-nav">
+				<div
+					className="collapse navbar-collapse justify-content-end"
+					id="navbarNav">
+					<ul className="navbar-nav float-right">
 						<li className="nav-item active">
-							<a className="nav-link" href="#">
-								Home <span className="sr-only">(current)</span>
+							<a className="nav-link text-muted " href="#">
+								{props.second}{" "}
+								<span className="sr-only">(current)</span>
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Features
+							<a className="nav-link text-muted" href="#">
+								{props.third}
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Pricing
+							<a className="nav-link text-muted" href="#">
+								{props.fourth}
 							</a>
 						</li>
 						<li className="nav-item">
-							<a class="nav-link disabled" href="#">
-								Disabled
+							<a className="nav-link text-muted" href="#">
+								{props.fifth}
 							</a>
 						</li>
 					</ul>
@@ -46,3 +49,10 @@ export function Navbar(props) {
 		</div>
 	);
 }
+Navbar.propTypes = {
+	name: PropTypes.string,
+	second: PropTypes.string,
+	third: PropTypes.string,
+	fourth: PropTypes.string,
+	fifth: PropTypes.string
+};
