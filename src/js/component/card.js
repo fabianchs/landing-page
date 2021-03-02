@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export function Card(props) {
 	return (
 		<div className="mt-4 w-75 mx-auto">
-			<div className="row  ">
+			<div className="row ">
 				<div className="col-3">
 					<div className="card">
 						<img
