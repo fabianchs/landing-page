@@ -35,10 +35,25 @@ export function Home() {
 					buttonLabel="Tomar café"
 					buttonURL="https://coffee.com"
 					imageURL="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F07%2F30%2FGettyImages-1032751904-2000.jpg"
+					title1="Horas de descanso"
+					description1="Aunque tengas pendientes, el descanso es vital para mantenernos sanos"
+					buttonLabel1="Descansar"
+					buttonURL1="https://sleep.com"
+					imageURL1="https://erickimphotography.com/blog/wp-content/uploads/2017/11/46BA399D-C89D-416B-8647-F8F178594CFA-2000x1325.jpeg"
+					title2="Ansiadas vacaciones"
+					description2="Las vacaciones saben mejor después de dar el mayor esfuerzo"
+					buttonLabel2="Dar mayor esfuerzo"
+					buttonURL2="https://vacations.com"
+					imageURL2="https://lh3.googleusercontent.com/proxy/n8r2bPuXQXKut2cSO4kYuS2zJ8VFlYDYQZbVx4MXoPwOoh-vTJZJ4ZWH8eObYvv6ak8zntmUJDkBDuygKO6e3eaqf9y3h9XswWAmBzK2rE1l2dG3CZ8-Z2VqRI08-4Fk-RF7_Q8P"
+					title3="Learn a new language"
+					description3="Skills of communication are essential for new jobs, specially for FS developers"
+					buttonLabel3="Learn more"
+					buttonURL3="https://languages.com"
+					imageURL3="https://www.regions4.org/wp-content/uploads/2020/04/lukas-blazek-mcsdtbwxuzu-unsplash-2000x1325.jpg"
 				/>
 			</div>
 			<div>
-				<Footer text="Copyright, todos los derechos reservados " />
+				<Footer text="Copyright, todos los derechos reservados &#169;" />
 			</div>
 		</div>
 	);
